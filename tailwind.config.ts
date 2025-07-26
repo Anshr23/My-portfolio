@@ -18,6 +18,10 @@ export default {
 			}
 		},
 		extend: {
+			backgroundImage: {
+				'hero-gradient': 'var(--hero-bg)',
+				'hero-secondary': 'var(--hero-secondary)',
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -51,6 +55,11 @@ export default {
 				card: {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
+				},
+				hero: {
+					text: 'hsl(var(--hero-text))',
+					'text-muted': 'hsl(var(--hero-text-muted))',
+					accent: 'hsl(var(--hero-accent))'
 				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
