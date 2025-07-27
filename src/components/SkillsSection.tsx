@@ -79,7 +79,7 @@ export function SkillsSection() {
             ref={scrollRef}
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
-            className="flex gap-6 overflow-x-auto scrollbar-hide px-4 transition-all"
+            className="flex gap-6 overflow-x-auto overflow-y-hidden scrollbar-hide px-4 transition-all"
           >
             {/* Original cards */}
             {skillCategories.map((category, categoryIndex) => (
